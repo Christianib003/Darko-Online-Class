@@ -506,7 +506,7 @@
     width: 200px;
     height: 200px;
     margin-bottom: 40px;
-    background-image: url(/IMAGES/2020-graduates.jpg);
+    background-image: url(IMAGES/2020-graduates.jpg);
     background-size: 300px;
     position: relative;
   }
@@ -516,7 +516,7 @@
     width: 200px;
     height: 200px;
     margin: auto;
-    background-image: url(/IMAGES/2021-graduates.jpg);
+    background-image: url(IMAGES/2021-graduates.jpg);
     background-size: 300px;
     position: relative;
   }
