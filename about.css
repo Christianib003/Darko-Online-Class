@@ -32,6 +32,10 @@
     display: none;
   }
 
+  .nav-bar {
+   position: fixed;
+  }
+
   .options {
     display: none;
     height: 700px;
@@ -321,6 +325,7 @@
 
   .nav-bar {
     display: flex;
+    position: fixed;
     flex-direction: row;
     justify-content: space-between;
     padding-left: 15%;
