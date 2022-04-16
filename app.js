@@ -25,9 +25,6 @@ function hideMenu() {
   body.style.overflow = 'visible';
 }
 
-icon.addEventListener('click', changeIcon());
-menuLinks.addEventListener('click', hideMenu());
-
 const speakersLeft = [{
   class: 'speaker_1',
   picture: 'IMAGES/speaker1-dj-khaled.jpeg',
@@ -109,3 +106,6 @@ for (let i = 0; i < speakersRight.length; i += 1) {
   </div>
   `;
 }
+
+icon.addEventListener('click', changeIcon());
+menuLinks.addEventListener('click', hideMenu());
