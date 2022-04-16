@@ -79,7 +79,6 @@
     background-image: url('IMAGES/text_bg_nexus.jpg');
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: border-box;
   }
 
   .introduction .description {
