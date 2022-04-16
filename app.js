@@ -15,14 +15,14 @@ icon.addEventListener('click', => {
     dropDown.style.display = 'none';
     body.style.overflow = 'visible';
   }
-});
+})
 
 icon.addEventListener('click', => {
   dropDown.style.display = 'none';
   icon.classList.toggle('fa-times');
   icon.classList.toggle('fa-bars');
   body.style.overflow = 'visible';
-});
+})
 
 const speakersLeft = [{
   class: 'speaker_1',
