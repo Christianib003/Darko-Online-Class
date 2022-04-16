@@ -11,7 +11,7 @@ This is the website of Darko Music Corporation on which students who are interes
 
 ## Get started
 
-- git clone 
+- git clone https://github.com/Christianib003/Darko-Online-Class.git
 - cd Darko Online Class
 
 ## Authors
