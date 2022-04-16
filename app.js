@@ -1,5 +1,4 @@
 const dropDown = document.querySelector('.options');
-const menuLinks = document.querySelectorAll('.options .choice .go-to-page');
 const icon = document.querySelector('.nav-bar .humberger-btn .fa-bars');
 const body = document.getElementById('body');
 
