@@ -5,7 +5,6 @@ const body = document.getElementById('body');
 dropDown.style.display = 'none';
 
 window.changeIcon = changeIcon;
-window.hideMenu = hideMenu;
 
 function changeIcon() {
   icon.classList.toggle('fa-times');
@@ -18,13 +17,6 @@ function changeIcon() {
     body.style.overflow = 'visible';
   }
 }
-
-// function hideMenu() {
-//   dropDown.style.display = 'none';
-//   icon.classList.toggle('fa-times');
-//   icon.classList.toggle('fa-bars');
-//   body.style.overflow = 'visible';
-// };
 
 const speakersLeft = [{
   class: 'speaker_1',
