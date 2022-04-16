@@ -1,6 +1,11 @@
 # Darko Online Class
 This is the website of Darko Music Corporation on which students who are interested in music may use to apply for Darko Music studies. It also provides brief history of Darko Music.
 
+![image](https://user-images.githubusercontent.com/91727952/163679669-471de5f7-18c4-47df-9db6-9a914d87bb6f.png)
+
+![image](https://user-images.githubusercontent.com/91727952/163679640-082cf750-c16f-4666-9ea9-f8d0a93a6cae.png)
+
+
 ## Built with
 - HTML
 - CSS
@@ -21,7 +26,7 @@ This is the website of Darko Music Corporation on which students who are interes
 
 ## Credits
 
-- In this project, I followed the template of [creative commons](https://creativecommons.org/) to make my website. Check them out for more templates.
+- In this project, I followed the template of [Cindy Shin](https://www.behance.net/adagio07) to make my website. Check them out for more templates.
 
 - This project is made as a way of showcasing my abilities after finishing Responsive Web Design stage in an online bootcamp known as [Microverse](https://www.microverse.org/)
 
