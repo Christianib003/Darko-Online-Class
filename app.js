@@ -105,6 +105,6 @@ for (let i = 0; i < speakersRight.length; i += 1) {
   </div>
   `;
 }
-const menuLinks = document.querySelector('.go-to-page hh');
+const menuLinks = document.querySelector('.hh');
 icon.addEventListener('click', changeIcon());
 menuLinks.addEventListener('click', hideMennu());
