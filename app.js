@@ -1,6 +1,7 @@
 const dropDown = document.querySelector('.options');
 const icon = document.querySelector('.nav-bar .humberger-btn .fa-bars');
 const body = document.getElementById('body');
+const menuLinks = document.querySelectorAll('.go-to-page');
 
 dropDown.style.display = 'none';
 
@@ -23,6 +24,9 @@ function hideMenu() {
   icon.classList.toggle('fa-bars');
   body.style.overflow = 'visible';
 }
+
+icon.addEventListener('click', changeIcon());
+menuLinks.addEventListener('click', hideMenu());
 
 const speakersLeft = [{
   class: 'speaker_1',
