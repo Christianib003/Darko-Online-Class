@@ -4,7 +4,7 @@ const body = document.getElementById('body');
 
 dropDown.style.display = 'none';
 
-changeIcon() {
+function changeIcon() {
   icon.classList.toggle('fa-times');
   icon.classList.toggle('fa-bars');
 
