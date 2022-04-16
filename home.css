@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'COCOGOOSE', sans-serif;
+  font-family: sans-serif;
 }
 
 @media screen and (max-width: 767px) {
@@ -21,11 +21,16 @@
 
   .options {
     display: none;
-    height: 700px;
+    height: 100vh;
     background-color: whitesmoke;
     z-index: 2;
   }
 
+  body {
+    background-image: url('IMAGES/main_background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+  }
   .menu {
     display: none;
   }
@@ -66,6 +71,7 @@
     background-repeat: no-repeat;
     background-position-x: -200px;
     background-size: 800px 420px;
+    background-position-y: -110px;
   }
 
   .greeting {
@@ -110,9 +116,8 @@
     margin-top: 20px;
     padding-left: 10px;
     padding-right: 0;
-    background-color: #272a31;
-    background-image: url('IMAGES/dot_bg.png');
-    background-size: 20px 2px;
+    background-image: url('IMAGES/real-background.png');
+    background-repeat: repeat;
   }
 
   .header {
@@ -163,9 +168,10 @@
 
   .p-title {
     padding-left: 10px;
-    font-size: 9px;
+    font-size: 12px;
     color: #a82819;
     margin-top: 20px;
+    font-weight: bold;
   }
 
   .p-more {
@@ -400,9 +406,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url('IMAGES/dot_bg.png');
-    background-size: 200px 100px;
-    background-color: #272a31;
+    background-image: url('IMAGES/real-background.png');
+    background-repeat: repeat;
     height: 500px;
   }
 
@@ -428,9 +433,8 @@
   .programs {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-left: 5%;
-    margin-right: 7%;
+    margin-left: 8%;
+    margin-right: 8%;
   }
 
   .program {
@@ -459,8 +463,9 @@
   .p-title {
     text-align: center;
     margin-top: 10px;
-    font-size: 13px;
+    font-size: 16px;
     color: #a82819;
+    font-weight: bold;
   }
 
   .p-more {
@@ -502,9 +507,10 @@
   .speakers {
     display: flex;
     flex-direction: row;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
     margin-bottom: 50px;
+    align-items: center;
   }
 
   .s {
@@ -573,14 +579,17 @@
 
   .par {
     color: #77797e;
-    font-size: 32px;
+    font-size: 25px;
     padding-bottom: 40px;
+    list-style-type: none;
   }
 
   .footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .darko-logo {
