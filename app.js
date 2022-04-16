@@ -109,7 +109,3 @@ for (let i = 0; i < speakersRight.length; i += 1) {
   </div>
   `;
 }
-const menuLinks = document.querySelector('.hh');
-menuLinks.addEventListener('click', hideMenu());
-icon.addEventListener('click', changeIcon());
-
