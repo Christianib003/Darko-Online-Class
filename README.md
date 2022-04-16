@@ -14,6 +14,8 @@ This is the website of Darko Music Corporation on which students who are interes
 ## Live Demo
 [Click here](https://christianib003.github.io/Darko-Online-Class/) to view the live demo of the website.
 
+[Click here](https://www.loom.com/share/1cd579e4f856484793c298992bd1ab78) for a video walk through.
+
 ## Get started
 
 - git clone https://github.com/Christianib003/Darko-Online-Class.git
