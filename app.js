@@ -1,7 +1,6 @@
 const dropDown = document.querySelector('.options');
 const icon = document.querySelector('.nav-bar .humberger-btn .fa-bars');
 const body = document.getElementById('body');
-const menuLinks = document.querySelector('.go-to-page hh');
 
 dropDown.style.display = 'none';
 
@@ -106,6 +105,6 @@ for (let i = 0; i < speakersRight.length; i += 1) {
   </div>
   `;
 }
-
+const menuLinks = document.querySelector('.go-to-page hh');
 icon.addEventListener('click', changeIcon());
 menuLinks.addEventListener('click', hideMennu());
