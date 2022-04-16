@@ -14,7 +14,7 @@ function changeIcon() {
     dropDown.style.display = 'none';
     body.style.overflow = 'visible';
   }
-};
+}
 
 function hideMenu() {
   dropDown.style.display = 'none';
