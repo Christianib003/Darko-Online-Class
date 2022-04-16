@@ -1,0 +1,591 @@
+@media screen and (max-width: 767px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  main {
+    margin: 0;
+    padding: 0;
+    background-image: url('IMAGES/main_background.png');
+    background-repeat: no-repeat;
+    background-position-x: -200px;
+    background-size: 800px 500px;
+  }
+
+  .socials {
+    display: none;
+  }
+
+  .humberger-btn {
+    margin-left: 15px;
+    font-size: 42px;
+    color: #d3d3d3;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .options {
+    display: none;
+    height: 100vh;
+    background-color: whitesmoke;
+    padding-top: 10px;
+  }
+
+  .go-to-page {
+    text-decoration: none;
+    color: #a82819;
+  }
+
+  .choice {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+    list-style: none;
+    border-bottom: 1px dotted rgb(70, 68, 68);
+  }
+
+  .summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 90px;
+    margin-top: -50px;
+  }
+
+  .greeting {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #ec5242;
+    font-size: 16px;
+  }
+
+  .a-title {
+    margin: auto;
+    width: 84%;
+  }
+
+  .summary-title {
+    color: #ec5242;
+    margin: auto;
+    text-align: center;
+  }
+
+  .in-short {
+    background-color: #fff;
+    margin: auto;
+    width: 84%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .text {
+    font-size: 13px;
+    color: rgb(70, 68, 68);
+    padding: 10px 10px 10px 10px;
+  }
+
+  .email-us {
+    margin-top: 20px;
+    width: 84%;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .our-email {
+    padding-top: 4px;
+    font-size: 16px;
+    color: #272a31;
+    text-decoration: underline;
+  }
+
+  .hist-sect {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hist-title {
+    margin: auto;
+    font-size: 17px;
+    text-align: center;
+    color: #272a31;
+    width: 90%;
+  }
+
+  .hist-summary {
+    margin: auto;
+    width: 84%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  .big {
+    display: flex;
+    margin: auto;
+    height: 120px;
+    border: 2px solid;
+    color: #d3d3d3;
+    width: 270px;
+    border-radius: 4px;
+  }
+
+  .logo-big {
+    justify-content: center;
+    padding-top: 10px;
+    width: 200px;
+    margin-bottom: 5%;
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+
+  .past {
+    border-top: 2px solid #d3d3d3;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+  }
+
+  .past-title {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    color: #272a31;
+  }
+
+  .sum {
+    margin: auto;
+    width: 84%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .past-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .past1 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-image: url('IMAGES/2020-graduates.jpg');
+    background-size: 300px;
+    position: relative;
+  }
+
+  .past2 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    background-image: url('IMAGES/2021-graduates.jpg');
+    background-size: 300px;
+    position: relative;
+  }
+
+  .color-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #ec5242;
+    opacity: 0.3;
+    position: absolute;
+    margin-top: -15px;
+  }
+
+  .year {
+    align-items: center;
+    margin-top: 45%;
+    height: 10%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+  }
+
+  .partners {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #272a31;
+    height: 200px;
+  }
+
+  .title-p {
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    padding-top: -20px;
+    color: white;
+    padding-bottom: -20px;
+  }
+
+  .underline {
+    color: #ec5242;
+    border: 1px solid;
+    width: 30px;
+    margin: auto;
+  }
+
+  .partn {
+    margin-top: -30px;
+  }
+
+  .par {
+    width: 30px;
+    color: #d3d3d3;
+    list-style-type: none;
+  }
+
+  .partners-names {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 10%;
+    margin-bottom: 15px;
+  }
+
+  .footer {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 4%;
+    margin-top: 10px;
+  }
+
+  .darko-logo {
+    width: 60px;
+    margin-bottom: 15px;
+  }
+
+  .foot {
+    margin-left: 8px;
+    margin-bottom: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .socials {
+    background-color: #272a31;
+  }
+
+  .social-m {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10%;
+  }
+
+  .social-m li {
+    list-style: none;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .fab {
+    color: white;
+  }
+
+  .options {
+    display: none;
+  }
+
+  main {
+    margin: 0;
+    padding: 0;
+    height: 630px;
+    background-image: url('IMAGES/main_background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+  }
+
+  .humberger-btn {
+    display: none;
+  }
+
+  .nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 15%;
+    background-color: white;
+    width: 90%;
+  }
+
+  .logo-desk {
+    width: 120px;
+  }
+
+  .menu-choice {
+    display: inline;
+    padding-top: 15px;
+    padding-left: 3%;
+    margin-right: 10%;
+    width: 100%;
+  }
+
+  .nav-bar .menu .menu-choice .a {
+    color: #272831;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    padding-top: 16px;
+    margin-right: 60%;
+    margin-left: 15%;
+  }
+
+  .link-desk {
+    text-decoration: none;
+    color: #6a6c70;
+  }
+
+  .link-desk:hover {
+    color: #ec5242;
+  }
+
+  .link-desko {
+    color: #ec5242;
+    text-decoration: none;
+  }
+
+  #contact {
+    border: 4px solid #ec5242;
+    padding: 8px 30px 0 30px;
+  }
+
+  .summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .greeting {
+    margin-top: 110px;
+    color: #ec5242;
+    font-size: 22px;
+  }
+
+  .a-title {
+    margin: auto;
+    width: 600px;
+  }
+
+  .summary-title {
+    color: #ec5242;
+    margin: auto;
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 40px;
+  }
+
+  .in-short {
+    background-color: #fff;
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    padding: 13px;
+  }
+
+  .text {
+    font-size: 14px;
+    color: rgb(70, 68, 68);
+    padding: 10px 10px 10px 10px;
+  }
+
+  .email-us {
+    margin-top: 30px;
+    width: 700px;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .our-email {
+    padding-top: 15px;
+    font-size: 16px;
+    color: #272a31;
+    text-decoration: underline;
+  }
+
+  .hist-sect {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hist-title {
+    margin: auto;
+    font-size: 22px;
+    text-align: center;
+    color: #272a31;
+    width: 90%;
+    padding-bottom: 10px;
+  }
+
+  .hist-summary {
+    margin: auto;
+    width: 700px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
+
+  .big {
+    display: flex;
+    margin: auto;
+    height: 120px;
+    border: 2px solid;
+    color: #d3d3d3;
+    width: 270px;
+    border-radius: 4px;
+  }
+
+  .logo-big {
+    justify-content: center;
+    padding-top: 10px;
+    width: 200px;
+    margin-bottom: 5%;
+    margin-left: 13%;
+    margin-right: 13%;
+  }
+
+  .past {
+    border-top: 2px solid #d3d3d3;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+  }
+
+  .past-title {
+    margin: auto;
+    font-size: 22px;
+    width: 90%;
+    text-align: center;
+    color: #272a31;
+    padding-bottom: 15px;
+  }
+
+  .sum {
+    margin: auto;
+    width: 84%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  .past-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 26%;
+    margin-right: 26%;
+  }
+
+  .past1 {
+    background-color: red;
+    margin-top: 20px;
+    width: 300px;
+    height: 150px;
+    margin-bottom: 40px;
+    background-image: url('IMAGES/2020-graduates.jpg');
+    background-size: 300px;
+    position: relative;
+  }
+
+  .past2 {
+    background-color: red;
+    width: 300px;
+    height: 150px;
+    margin: auto;
+    background-image: url('IMAGES/2021-graduates.jpg');
+    background-size: 300px;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .color-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #ec5242;
+    opacity: 0.3;
+    position: absolute;
+    margin-top: -15px;
+  }
+
+  .year {
+    align-items: center;
+    margin-top: 20%;
+    height: 10%;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .underline {
+    color: #ec5242;
+    border: 1px solid;
+    width: 30px;
+    margin: auto;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .footer {
+    display: flex;
+    padding-left: 20%;
+    padding-right: 50%;
+    margin-top: 100px;
+    background-color: #272a31;
+  }
+
+  .darko-logo {
+    margin-top: 15px;
+    width: 200px;
+    margin-bottom: 15px;
+  }
+
+  .foot {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    color: white;
+    margin-top: 30px;
+    width: 500px;
+    margin-right: 40%;
+  }
+}
