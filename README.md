@@ -1,5 +1,5 @@
 # Darko Online Class
-This is the website of Darko Music Corporation on which sstudents who are interested in music may use to apply for Darko Music studies. It also provides brief history of Darko Music.
+This is the website of Darko Music Corporation on which students who are interested in music may use to apply for Darko Music studies. It also provides brief history of Darko Music.
 
 ## Built with
 - HTML
