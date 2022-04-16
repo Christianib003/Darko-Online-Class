@@ -106,5 +106,6 @@ for (let i = 0; i < speakersRight.length; i += 1) {
   `;
 }
 const menuLinks = document.querySelector('.hh');
-icon.addEventListener('click', changeIcon());
 menuLinks.addEventListener('click', hideMenu());
+icon.addEventListener('click', changeIcon());
+
