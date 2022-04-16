@@ -19,12 +19,12 @@ function changeIcon() {
   }
 }
 
-function hideMenu() {
-  dropDown.style.display = 'none';
-  icon.classList.toggle('fa-times');
-  icon.classList.toggle('fa-bars');
-  body.style.overflow = 'visible';
-};
+// function hideMenu() {
+//   dropDown.style.display = 'none';
+//   icon.classList.toggle('fa-times');
+//   icon.classList.toggle('fa-bars');
+//   body.style.overflow = 'visible';
+// };
 
 const speakersLeft = [{
   class: 'speaker_1',
