@@ -79,7 +79,7 @@
     background-image: url('IMAGES/text_bg_nexus.jpg');
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-clip: box-shadow;
+    background-clip: border-box;
   }
 
   .introduction .description {
@@ -319,6 +319,11 @@
     color: #272831;
   }
 
+  .link-desk {
+    text-decoration: none;
+    color: #6a6c70;
+  }
+
   .nav-bar .menu .menu-choice .link-desk:hover {
     color: #ec5242;
   }
@@ -329,11 +334,6 @@
     width: 70%;
     padding-top: 16px;
     margin-right: 5%;
-  }
-
-  .link-desk {
-    text-decoration: none;
-    color: #6a6c70;
   }
 
   .link-desko {
@@ -369,7 +369,7 @@
     font-weight: bold;
     width: 650px;
     margin-top: 15px;
-    background-clip: box-shadow;
+    background-clip: border-box;
     background-image: url('IMAGES/text_bg_nexus.jpg');
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
