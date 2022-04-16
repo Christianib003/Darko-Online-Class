@@ -7,7 +7,6 @@ dropDown.style.display = 'none';
 function changeIcon() {
   icon.classList.toggle('fa-times');
   icon.classList.toggle('fa-bars');
-
   if (dropDown.style.display === 'none') {
     dropDown.style.display = 'block';
     body.style.overflow = 'hidden';
