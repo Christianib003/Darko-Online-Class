@@ -2,13 +2,9 @@ const dropDown = document.querySelector('.options');
 const icon = document.querySelector('.nav-bar .humberger-btn .fa-bars');
 const body = document.getElementById('body');
 
-const menuLinks = document.querySelector('.hh');
-menuLinks.addEventListener('click', hideMenu());
-icon.addEventListener('click', changeIcon());
-
 dropDown.style.display = 'none';
 
-function changeIcon() {
+icon.addEventListener('click', changeIcon() {
   icon.classList.toggle('fa-times');
   icon.classList.toggle('fa-bars');
 
@@ -19,7 +15,7 @@ function changeIcon() {
     dropDown.style.display = 'none';
     body.style.overflow = 'visible';
   }
-}
+})
 
 function hideMenu() {
   dropDown.style.display = 'none';
