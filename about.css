@@ -273,7 +273,6 @@
   }
 }
 
-
 @media screen and (min-width: 768px) {
   * {
     margin: 0;
@@ -497,7 +496,6 @@
     justify-content: center;
     margin-left: 20%;
     margin-right: 20%;
-
   }
 
   .past1 {
