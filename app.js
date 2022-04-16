@@ -4,7 +4,7 @@ const body = document.getElementById('body');
 
 dropDown.style.display = 'none';
 
-icon.addEventListener('click', changeIcon() {
+icon.addEventListener('click', => {
   icon.classList.toggle('fa-times');
   icon.classList.toggle('fa-bars');
 
@@ -15,14 +15,14 @@ icon.addEventListener('click', changeIcon() {
     dropDown.style.display = 'none';
     body.style.overflow = 'visible';
   }
-})
+});
 
-function hideMenu() {
+icon.addEventListener('click', => {
   dropDown.style.display = 'none';
   icon.classList.toggle('fa-times');
   icon.classList.toggle('fa-bars');
   body.style.overflow = 'visible';
-}
+});
 
 const speakersLeft = [{
   class: 'speaker_1',
