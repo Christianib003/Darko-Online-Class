@@ -8,7 +8,7 @@
   main {
     margin: 0;
     padding: 0;
-    background-image: url(/IMAGES/main_background.png);
+    background-image: url('IMAGES/main_background.png');
     background-repeat: no-repeat;
     background-position-x: -200px;
     background-size: 800px 500px;
