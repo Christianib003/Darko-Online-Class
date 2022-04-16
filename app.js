@@ -16,8 +16,8 @@ icon.addEventListener('click', function changeIcon() {
     body.style.overflow = 'visible';
   }
 })
-
 icon.addEventListener('click', function hideMenu() {
+
   dropDown.style.display = 'none';
   icon.classList.toggle('fa-times');
   icon.classList.toggle('fa-bars');
